@@ -1,0 +1,12 @@
+package org.unitec.proyectounitec
+
+import androidx.appcompat.app.AppCompatActivity
+import android.os.Bundle
+//el punto de partida de toda app es la MainActivity
+class MainActivity : AppCompatActivity() {
+    //fun en kotlin es una palabra reservada para implementar o crear una funcion o metodo
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_main)
+    }
+}
