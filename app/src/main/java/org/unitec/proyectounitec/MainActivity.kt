@@ -8,6 +8,6 @@ class MainActivity : AppCompatActivity() {
     //vamos a probar que funciona github esto lo estoy edi8tando desde el repositorio
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.ejemplito)
     }
 }
